@@ -1,6 +1,9 @@
 from excel_reader import ler_excel
 from analyzer import analisar_colunas
 from converter import converter_para_txt
+from logger import logger
+
+logger.info("Sistema iniciado")
 
 
 def main():
